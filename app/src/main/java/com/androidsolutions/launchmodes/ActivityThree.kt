@@ -15,6 +15,7 @@ class ActivityThree : AppCompatActivity() {
         binding.btnTwo.setOnClickListener {
             startActivity(Intent(this, ActivityTwo::class.java))
         }
+
         binding.btnReopen.setOnClickListener {
             startActivity(Intent(this, ActivityThree::class.java))
         }
